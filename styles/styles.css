@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;800&display=swap');
+
+body {
+    font-family: 'Mulish', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* navbar works starts here */
+
+.nav-section {
+    max-width: 1250px;
+    margin: 0 auto;
+    /* border: 2px solid green; */
+    margin-top: 50px;
+    display: flex;
+}
+
+.nav-icon {
+    /* border: 2px solid chartreuse; */
+    min-height: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    /* border: 2px solid red; */
+    width: 50%;
+}
+
+.nav-icon p {
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.nav-colour {
+    color: #FF5400;
+}
+
+.nav-items-container {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-items-container a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.nav-bar-home {
+    color: #FF5400;
+}
+
+/* nav-section end here */
+
+/* banner section starts here */
+.banner-container {
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),
+        url(/images/Group\ 13\ \(1\)\ \(1\).png);
+
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 40px;
+    border-radius: 16px;
+}
+
+.text-container {
+    align-items: center;
+    justify-content: center;
+    width: 622px;
+    padding: 106px 287px 70px 287px;
+    /* border: 2px solid yellow; */
+    color: white;
+}
+
+.heading {
+    margin-left: 50px;
+    font-size: 3.5rem;
+    color: white;
+    font-weight: 800;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    gap: 24px;
+}
+
+.btn-container, button{
+    border-radius: 9px;
+    border-style: none;
+ 
+}
+
+.btn-01 {
+    width: 174px;
+    height: 52px;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.btn-02 {
+    width: 174px;
+    height: 52px;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.btn-03 {
+    width: 174px;
+    height: 52px;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.btn-04 {
+    width: 174px;
+    height: 52px;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #FF5400;
+}
