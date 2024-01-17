@@ -253,7 +253,7 @@ li {
 
 #trip-place {
     width: 1200px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     /* height: 900px; */
     margin: 0 auto;
     margin-top: 40px;
@@ -264,6 +264,13 @@ li {
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(3, 1fr);
     gap: 25px;
+}
+.relative{
+    position:relative;
+}
+.text-center{
+    position:absolute;
+    left: 50%;
 }
 
 .img-container img {
@@ -339,6 +346,35 @@ li {
     font-size: 16px;
     font-weight: 400;
     
+}
+.skills-container{
+    /* border: 2px solid red; */
+    width: 1200px;
+    height: 200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.skill-01{
+   /* border: 2px solid yellow; */
+   background-color: #FBB56333;
+   padding-left: 30px;
+
+}
+.skill-02{
+   /* border: 2px solid green; */
+   background-color: #29CEF633;
+}
+.skill-03{
+   /* border: 2px solid violet; */
+   width: 400px;
+   margin: 0 auto;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   background-color: #E9444433;
+   margin-top: 40px;
 }
 
 /* mobile-devices */
